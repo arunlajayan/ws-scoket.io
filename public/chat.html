@@ -1,0 +1,8 @@
+<script src="/socket.io/socket.io.js"></script>
+<script>
+    const socket = io('http://localhost:5000');
+    socket.on('messageFromServer', data =>{
+        console.log(data);
+        socket.emit('messageToServer',{data:'message from client'});
+    })
+</script>
