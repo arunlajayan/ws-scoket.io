@@ -4,6 +4,7 @@ const socketio = require('socket.io');
 const server = http.createServer((req, res) => {
     res.end('i am connected');
 });
+
 const io = socketio(server)
 io.on('connection', (socket, req) => {
     // console.log(ws)
