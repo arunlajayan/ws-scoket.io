@@ -1,15 +1,23 @@
 {
-  "name": "ws",
+  "name": "socket",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arunlajayan/ws-scoket.io.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arunlajayan/ws-scoket.io/issues"
+  },
+  "homepage": "https://github.com/arunlajayan/ws-scoket.io#readme",
   "dependencies": {
-    "ws": "^8.15.0"
+    "socket.io": "^2.5.0"
   }
 }
